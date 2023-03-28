@@ -1,0 +1,1 @@
+/nix/store/9yxrwp848f7msm6m2442yfpji8m3206b-gcc-wrapper-11.3.0/bin/g++ -fPIC -shared -Wl,-soname,libzork.so -o libzork.so CMakeFiles/libzork.dir/src/node.cc.o CMakeFiles/libzork.dir/src/store.cc.o CMakeFiles/libzork.dir/src/choice.cc.o  /nix/store/3xn7v0n2dpwniij6bm92yf61q7bjgdgi-libyaml-cpp-0.7.0/lib/libyaml-cpp.so 

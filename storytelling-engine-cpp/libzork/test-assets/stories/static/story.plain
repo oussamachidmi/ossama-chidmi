@@ -1,0 +1,7 @@
+graph 1 2.1971 1.5
+node welcome 1.0534 1.25 1.4263 0.5 welcome solid ellipse black lightgrey
+node cave 0.44232 0.25 0.88464 0.5 cave solid ellipse black lightgrey
+node forest 1.6645 0.25 1.0652 0.5 forest solid ellipse black lightgrey
+edge welcome cave 4 0.9055 1.0008 0.83162 0.88322 0.7408 0.73875 0.65922 0.60895 solid black
+edge welcome forest 4 1.2014 1.0008 1.2734 0.88612 1.3616 0.74585 1.4416 0.61858 solid black
+stop

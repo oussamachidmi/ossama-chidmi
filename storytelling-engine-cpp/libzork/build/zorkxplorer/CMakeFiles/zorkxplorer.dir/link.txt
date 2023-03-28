@@ -1,0 +1,1 @@
+/nix/store/9yxrwp848f7msm6m2442yfpji8m3206b-gcc-wrapper-11.3.0/bin/g++ CMakeFiles/zorkxplorer.dir/src/main.cc.o CMakeFiles/zorkxplorer.dir/src/options.cc.o -o zorkxplorer  -Wl,-rpath,/home/ossama.chidmi/afs/epita-ing-assistants-yaka-libzork-2025-ossama.chidmi/libzork/build ../libzork.so 

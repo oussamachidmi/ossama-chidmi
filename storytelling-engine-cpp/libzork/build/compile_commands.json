@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/ossama.chidmi/afs/epita-ing-assistants-yaka-libzork-2025-ossama.chidmi/libzork/build",
+  "command": "/nix/store/9yxrwp848f7msm6m2442yfpji8m3206b-gcc-wrapper-11.3.0/bin/g++ -Dlibzork_EXPORTS -I/home/ossama.chidmi/afs/epita-ing-assistants-yaka-libzork-2025-ossama.chidmi/libzork/include -fPIC -Wall -Wextra -Werror -pedantic -std=c++20 -o CMakeFiles/libzork.dir/src/node.cc.o -c /home/ossama.chidmi/afs/epita-ing-assistants-yaka-libzork-2025-ossama.chidmi/libzork/src/node.cc",
+  "file": "/home/ossama.chidmi/afs/epita-ing-assistants-yaka-libzork-2025-ossama.chidmi/libzork/src/node.cc"
+},
+{
+  "directory": "/home/ossama.chidmi/afs/epita-ing-assistants-yaka-libzork-2025-ossama.chidmi/libzork/build",
+  "command": "/nix/store/9yxrwp848f7msm6m2442yfpji8m3206b-gcc-wrapper-11.3.0/bin/g++ -Dlibzork_EXPORTS -I/home/ossama.chidmi/afs/epita-ing-assistants-yaka-libzork-2025-ossama.chidmi/libzork/include -fPIC -Wall -Wextra -Werror -pedantic -std=c++20 -o CMakeFiles/libzork.dir/src/store.cc.o -c /home/ossama.chidmi/afs/epita-ing-assistants-yaka-libzork-2025-ossama.chidmi/libzork/src/store.cc",
+  "file": "/home/ossama.chidmi/afs/epita-ing-assistants-yaka-libzork-2025-ossama.chidmi/libzork/src/store.cc"
+},
+{
+  "directory": "/home/ossama.chidmi/afs/epita-ing-assistants-yaka-libzork-2025-ossama.chidmi/libzork/build",
+  "command": "/nix/store/9yxrwp848f7msm6m2442yfpji8m3206b-gcc-wrapper-11.3.0/bin/g++ -Dlibzork_EXPORTS -I/home/ossama.chidmi/afs/epita-ing-assistants-yaka-libzork-2025-ossama.chidmi/libzork/include -fPIC -Wall -Wextra -Werror -pedantic -std=c++20 -o CMakeFiles/libzork.dir/src/choice.cc.o -c /home/ossama.chidmi/afs/epita-ing-assistants-yaka-libzork-2025-ossama.chidmi/libzork/src/choice.cc",
+  "file": "/home/ossama.chidmi/afs/epita-ing-assistants-yaka-libzork-2025-ossama.chidmi/libzork/src/choice.cc"
+},
+{
+  "directory": "/home/ossama.chidmi/afs/epita-ing-assistants-yaka-libzork-2025-ossama.chidmi/libzork/build/zorkxplorer",
+  "command": "/nix/store/9yxrwp848f7msm6m2442yfpji8m3206b-gcc-wrapper-11.3.0/bin/g++  -I/home/ossama.chidmi/afs/epita-ing-assistants-yaka-libzork-2025-ossama.chidmi/libzork/include -Wall -Wextra -Werror -pedantic -g -std=c++20 -o CMakeFiles/zorkxplorer.dir/src/main.cc.o -c /home/ossama.chidmi/afs/epita-ing-assistants-yaka-libzork-2025-ossama.chidmi/libzork/zorkxplorer/src/main.cc",
+  "file": "/home/ossama.chidmi/afs/epita-ing-assistants-yaka-libzork-2025-ossama.chidmi/libzork/zorkxplorer/src/main.cc"
+},
+{
+  "directory": "/home/ossama.chidmi/afs/epita-ing-assistants-yaka-libzork-2025-ossama.chidmi/libzork/build/zorkxplorer",
+  "command": "/nix/store/9yxrwp848f7msm6m2442yfpji8m3206b-gcc-wrapper-11.3.0/bin/g++  -I/home/ossama.chidmi/afs/epita-ing-assistants-yaka-libzork-2025-ossama.chidmi/libzork/include -Wall -Wextra -Werror -pedantic -g -std=c++20 -o CMakeFiles/zorkxplorer.dir/src/options.cc.o -c /home/ossama.chidmi/afs/epita-ing-assistants-yaka-libzork-2025-ossama.chidmi/libzork/zorkxplorer/src/options.cc",
+  "file": "/home/ossama.chidmi/afs/epita-ing-assistants-yaka-libzork-2025-ossama.chidmi/libzork/zorkxplorer/src/options.cc"
+},
+{
+  "directory": "/home/ossama.chidmi/afs/epita-ing-assistants-yaka-libzork-2025-ossama.chidmi/libzork/build/tests",
+  "command": "/nix/store/9yxrwp848f7msm6m2442yfpji8m3206b-gcc-wrapper-11.3.0/bin/g++ -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -I/home/ossama.chidmi/afs/epita-ing-assistants-yaka-libzork-2025-ossama.chidmi/libzork/tests/include -I/home/ossama.chidmi/afs/epita-ing-assistants-yaka-libzork-2025-ossama.chidmi/libzork/include -isystem /nix/store/shcd1gryhcnalr6z9khbwf9dz50yaf02-gtest-1.12.1-dev/include -isystem /nix/store/ds404rz00qp02rxj7ylwmnkb5dm7bibp-libxml++-2.40.1/include/libxml++-2.6 -isystem /nix/store/ds404rz00qp02rxj7ylwmnkb5dm7bibp-libxml++-2.40.1/lib/libxml++-2.6/include -isystem /nix/store/2ljws12xpfaz1c0nmnm5gqxdyl5298qr-libxml2-2.10.3-dev/include/libxml2 -isystem /nix/store/zx5lhvlvl55720j49lhcpzilg9bl3x2m-glibmm-2.66.5-dev/include/glibmm-2.4 -isystem /nix/store/4i28kh28gzvzm1fqxji1qzkldq0nql6j-glibmm-2.66.5/lib/glibmm-2.4/include -isystem /nix/store/0j5vxgshff9ixi8b9vpgyb69nfs9bdyv-glib-2.74.3-dev/include/glib-2.0 -isystem /nix/store/24pc1c07rqc5fk7v0skrwjgicilagm52-glib-2.74.3/lib/glib-2.0/include -isystem /nix/store/66zzrrcpyw6x7bx9q395d953h9040dhg-libsigc++-2.10.8/include/sigc++-2.0 -isystem /nix/store/66zzrrcpyw6x7bx9q395d953h9040dhg-libsigc++-2.10.8/lib/sigc++-2.0/include -std=c++20 -o CMakeFiles/testsuite.dir/basics/node.cc.o -c /home/ossama.chidmi/afs/epita-ing-assistants-yaka-libzork-2025-ossama.chidmi/libzork/tests/basics/node.cc",
+  "file": "/home/ossama.chidmi/afs/epita-ing-assistants-yaka-libzork-2025-ossama.chidmi/libzork/tests/basics/node.cc"
+},
+{
+  "directory": "/home/ossama.chidmi/afs/epita-ing-assistants-yaka-libzork-2025-ossama.chidmi/libzork/build/tests",
+  "command": "/nix/store/9yxrwp848f7msm6m2442yfpji8m3206b-gcc-wrapper-11.3.0/bin/g++ -DGTEST_LINKED_AS_SHARED_LIBRARY=1 -I/home/ossama.chidmi/afs/epita-ing-assistants-yaka-libzork-2025-ossama.chidmi/libzork/tests/include -I/home/ossama.chidmi/afs/epita-ing-assistants-yaka-libzork-2025-ossama.chidmi/libzork/include -isystem /nix/store/shcd1gryhcnalr6z9khbwf9dz50yaf02-gtest-1.12.1-dev/include -isystem /nix/store/ds404rz00qp02rxj7ylwmnkb5dm7bibp-libxml++-2.40.1/include/libxml++-2.6 -isystem /nix/store/ds404rz00qp02rxj7ylwmnkb5dm7bibp-libxml++-2.40.1/lib/libxml++-2.6/include -isystem /nix/store/2ljws12xpfaz1c0nmnm5gqxdyl5298qr-libxml2-2.10.3-dev/include/libxml2 -isystem /nix/store/zx5lhvlvl55720j49lhcpzilg9bl3x2m-glibmm-2.66.5-dev/include/glibmm-2.4 -isystem /nix/store/4i28kh28gzvzm1fqxji1qzkldq0nql6j-glibmm-2.66.5/lib/glibmm-2.4/include -isystem /nix/store/0j5vxgshff9ixi8b9vpgyb69nfs9bdyv-glib-2.74.3-dev/include/glib-2.0 -isystem /nix/store/24pc1c07rqc5fk7v0skrwjgicilagm52-glib-2.74.3/lib/glib-2.0/include -isystem /nix/store/66zzrrcpyw6x7bx9q395d953h9040dhg-libsigc++-2.10.8/include/sigc++-2.0 -isystem /nix/store/66zzrrcpyw6x7bx9q395d953h9040dhg-libsigc++-2.10.8/lib/sigc++-2.0/include -std=c++20 -o CMakeFiles/testsuite.dir/basics/store.cc.o -c /home/ossama.chidmi/afs/epita-ing-assistants-yaka-libzork-2025-ossama.chidmi/libzork/tests/basics/store.cc",
+  "file": "/home/ossama.chidmi/afs/epita-ing-assistants-yaka-libzork-2025-ossama.chidmi/libzork/tests/basics/store.cc"
+}
+]

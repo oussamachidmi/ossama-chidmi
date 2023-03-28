@@ -1,0 +1,93 @@
+*{
+    box-sizing: content-box;
+    font-family: DIN Neuzeit Grotesk,sans-serif;
+    letter-spacing: 3px;
+    font-size: large;
+}
+header{
+    position: static;
+    height: min-content;
+}
+
+
+header div p {
+  margin-left: 35%;
+  margin: 15px 32% 10px auto;
+}
+
+header nav ul li {
+    color: black;
+}
+main{
+    height: 1000px;
+}
+
+ul li a{
+    color: black!important;
+    transition: text-decoration 1s ease;
+}
+
+ul li:hover{
+    text-decoration: overline;
+}
+
+#article1{
+    display: flex;
+    flex-direction: row;
+}
+img{
+
+    width: 45%;
+    height: 80%;
+    margin: 10% 2% 2% 5%;
+
+}
+
+#info{
+    display: inline-block;
+    width: 30%;
+    margin: 20% auto 5% auto;
+
+
+}
+
+button {
+    background-color: rgb(224, 163, 112);
+    margin-right: 50%;
+    margin-left: 0%;
+    width: 180px;
+    height: 40px;
+    margin-top: 40px;
+    position: relative;
+    left: 0;
+    border-radius:0 ;
+    transition: background-color 0.7s ease;
+}
+button:hover{
+    background-color: rgb(252, 238, 219);
+    color: black;
+    cursor: pointer;
+}
+
+
+
+p{
+    margin-top: 50px;
+    text-indent: 20px;
+}
+
+#p{
+    font-weight: 200;
+    letter-spacing: 3px;
+    line-height: 1.3;
+    font-size: medium;
+}
+
+#panier {
+    background-color: aqua;
+}
+
+#passbt{
+    margin-bottom: 100px;
+    background-color: black;
+}

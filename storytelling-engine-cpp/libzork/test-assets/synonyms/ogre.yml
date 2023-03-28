@@ -1,0 +1,24 @@
+- word: attack
+  synonyms: [ assault ]
+- word: assault
+  synonyms: [ attack ]
+- word: ogre
+  synonyms: [ monster, goblins ]
+- word: explore
+  synonyms: [ enter ]
+- word: cavern
+  synonyms: [ cave ]
+- word: forest
+  synonyms: [ woods ]
+- word: enter
+  synonyms: [ explore ]
+- word: return
+  synonyms: [ go ]
+- word: home
+  synonyms: [ house ]
+- word: train
+  synonyms: []
+- word: drink
+  synonyms: [ take ]
+- word: consumable
+  synonyms: [ potion ]

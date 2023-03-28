@@ -1,0 +1,51 @@
+title: Dynamic story
+scripts-path: ../../scripts/dynamic
+variables:
+  - name: xp
+    value: 0
+  - name: health
+    value: 10
+  - name: potion_taken
+    value: 0
+story:
+  - name: cave
+    script: cave.txt
+    choices:
+      - text: Take the potion
+        target: cave
+        conditions:
+          - name: potion_taken
+            comparison: equal
+            value: 0
+        actions:
+          - name: health
+            operation: add
+            value: 20
+          - name: potion_taken
+            operation: assign
+            value: 1
+      - text: Train
+        target: cave
+        actions:
+          - name: xp
+            operation: add
+            value: 1
+      - text: Attack the goblins
+        target: goblins
+        conditions:
+          - name: health
+            comparison: greater_equal
+            value: 20
+          - name: xp
+            comparison: greater_equal
+            value: 1
+        actions:
+          - name: health
+            operation: sub
+            value: 10
+          - name: xp
+            operation: add
+            value: 5
+  - name: goblins
+    script: goblins.txt
+    choices: []

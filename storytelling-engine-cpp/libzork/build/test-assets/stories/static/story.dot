@@ -1,0 +1,5 @@
+digraph story
+{
+    welcome -> cave;
+    welcome -> forest;
+}

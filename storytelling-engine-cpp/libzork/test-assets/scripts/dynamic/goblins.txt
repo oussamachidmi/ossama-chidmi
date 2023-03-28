@@ -1,0 +1,4 @@
+You attack the goblins. This a tough fight and you lose 10 HP. You are finally
+victorious and rewarded with a potion of immortality.
+
+Congratulations! You just completed the game!

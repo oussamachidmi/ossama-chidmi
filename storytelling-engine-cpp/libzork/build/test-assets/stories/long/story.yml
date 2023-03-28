@@ -1,0 +1,27 @@
+title: My static story
+scripts-path: ../../scripts/static
+story:
+  - name: welcome
+    script: welcome.txt
+    choices:
+      - text: Explore the cave
+        target: cave
+      - text: Go in the forest
+        target: forest
+      - text: Go back home
+        target: home
+  - name: cave
+    script: cave.txt
+    choices:
+      - text: Go out
+        target: welcome
+  - name: forest
+    script: forest.txt
+    choices:
+      - text: Explore the cave
+        target: cave
+      - text: Go back
+        target: welcome
+  - name: home
+    script: welcome.txt
+    choices: []

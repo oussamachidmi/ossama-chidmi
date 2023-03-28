@@ -12,11 +12,10 @@ Ce repository contient une collection de mes projets académiques et professionn
 
 - [Moteur de narration en C++](./storytelling-engine-cpp/README.md): Ce projet consistait à créer un moteur de narration en C++ pour permettre la création d'histoires personnalisées.
 
-- [Interpréteur Shell en C](./shell-interpreter/README.md): Ce projet consistait à créer un interpréteur Shell en C selon les spécifications POSIX Shell Command.
 
 - [Architecture de bases de données distribuées avec Oracle](./distributed-db-architecture/README.md): Ce projet consistait à concevoir et déployer une architecture de bases de données distribuées avec Oracle.
 
-- [Implémentation de la commande Find avec C](./find-command-implementation/README.md): Ce projet consistait à implémenter la commande Find avec C pour permettre la recherche de fichiers dans un système de fichiers.
+- [Implémentation de la commande Find avec C](./find-command-implementation-c/README.md): Ce projet consistait à implémenter la commande Find avec C pour permettre la recherche de fichiers dans un système de fichiers.
 
 - [minishell avec C](./minishell-sys/README.md): Ce projet a été réalisé dans le cadre de mon cours de systèmes d'exploitation. Il s'agit de la création d'un mini-shell en C.
 

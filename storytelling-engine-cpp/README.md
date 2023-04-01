@@ -1,6 +1,6 @@
 # Moteur de narration en C++
 
-Ce projet a pour objectif de créer un moteur de jeu de narration à embranchements qui permet aux utilisateurs de suivre des histoires interactives en faisant des choix qui ont un impact sur l'intrigue.
+Ce projet realisé en 10h a pour objectif de créer un moteur de jeu de narration à embranchements qui permet aux utilisateurs de suivre des histoires interactives en faisant des choix qui ont un impact sur l'intrigue.
 
 Fonctionnalités
 Le moteur de narration en C++ est capable de :

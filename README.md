@@ -17,7 +17,7 @@ Ce repository contient une collection de mes projets académiques et professionn
 
 - [Implémentation de la commande Find avec C](./find-command-implementation-c/): Ce projet consistait à implémenter la commande Find avec C pour permettre la recherche de fichiers dans un système de fichiers.
 
-- [minishell avec C](./minishell-sys/): Ce projet a été réalisé dans le cadre de mon cours de systèmes d'exploitation. Il s'agit de la création d'un mini-shell en C.
+- [minishell avec C](./minishell-sys/): Ce projet a été réalisé dans le cadre de mon cours de systèmes d'exploitation. Il s'agit de la création d'un mini-shell (interpreteur shell) en C.
 
 
 ## Projets professionnels

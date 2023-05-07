@@ -6,7 +6,7 @@ Ce repository contient une collection de mes projets académiques et professionn
 
 ## Projets académiques
 
-- [Backend pour Bomberman en ligne avec Java et Quarkus](./bomberman-backend-java/): Ce projet consistait à créer un backend performant pour un jeu Bomberman en ligne en utilisant Java et Quarkus.
+- [Backend pour le jeu Bomberman en ligne avec Java et Quarkus](./bomberman-backend-java/): Ce projet consistait à créer un backend performant pour un jeu Bomberman en ligne en utilisant Java et Quarkus.
 
 - [API Java pour un jeu en temps réel sur serveur](./game-api-quarkus/): Ce projet consistait à créer une API Java pour un jeu en temps réel sur serveur.
 

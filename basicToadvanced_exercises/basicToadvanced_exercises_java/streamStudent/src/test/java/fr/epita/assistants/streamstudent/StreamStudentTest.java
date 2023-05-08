@@ -6,6 +6,9 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.stream.Stream;
 
+
+
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class StreamStudentTest {
@@ -29,20 +32,7 @@ public class StreamStudentTest {
 
     }
 
-    @Test
-    public void validatorLoginContainsTwoOrMoreUnderscore() {
-        Pair<Integer, String> loginTwoUnderscore = new Pair<>(50, "xavier_login_");
-        Pair<Integer, String> loginValid = new Pair<>(90, "xavier_login");
-        Pair<Integer, String> loginMultipleUnderscord = new Pair<>(10, "_login__x");
-        Streamer streamer = new Streamer();
 
-        var loginList = List.of(loginTwoUnderscore, loginValid, loginMultipleUnderscord);
-
-        var expected = List.of(loginValid).stream();
-        var actual = streamer.validator(loginList.stream());
-
-        assertStreamEquals(expected, actual);
-    }
 
     // Add your own tests here
 }

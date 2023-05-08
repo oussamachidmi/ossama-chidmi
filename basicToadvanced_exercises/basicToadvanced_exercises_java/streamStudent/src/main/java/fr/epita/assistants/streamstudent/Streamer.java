@@ -1,64 +1,113 @@
 package fr.epita.assistants.streamstudent;
 
-
 import java.util.Comparator;
 import java.util.Optional;
-
 import java.util.stream.Stream;
+import java.util.zip.ZipEntry;
 
 public class Streamer {
 
-    public Stream<Pair<Integer, String>> validator(Stream<Pair<Integer, String>> stream) {
-        Stream<Pair<Integer, String>> pairStream = stream.filter(pair -> {
-            int gr = pair.getKey();
-            String login = pair.getValue();
-            int ct_pt = login.length() - login.replace(".", "").length();
-            int ct_un = login.length() - login.replace("_", "").length();
-            return (ct_pt + ct_un == 1) && gr > -1 && gr < 101;
-        });
-        return pairStream;
-    }
+  public Stream<Pair<Integer, String>> validator(
+    Stream<Pair<Integer, String>> stream
+  ) {
+    return stream.filter(pair -> {
+      if (pair.getKey() > -1 && pair.getKey() < 101 && pair.getValue().matches("[a-zA-Z]*[._][a-zA-Z]*")) {
+        return true;
+      } else {
+        return false;
+      }
+      });
+  }
 
-//    public Stream<Pair<Integer, String>> orderGrade(Stream<Pair<Integer, String>> stream) {
-//        return stream.sorted((a, b) -> {
-//            int gradeDiff = a.getKey().compareTo(b.getKey());
-//            if (gradeDiff != 0) {
-//                return gradeDiff;
-//            } else {
-//                return a.getValue().compareTo(b.getValue());
-//            }
-//        });
-//    }
 
-    public Stream<Pair<Integer, String>> lowercase(Stream<Pair<Integer, String>> stream) {
-        Stream<Pair<Integer, String>> lower =stream.filter(pair -> {
-            String pattern = "[A-Z]";
-            return  pair.getValue().chars().anyMatch(c -> Character.isUpperCase(c));
-        }).map(pair -> {
-            pair.setValue(pair.getValue().toLowerCase());
-            pair.setKey(pair.getKey()/2);
-            return pair;
-        });
-        return lower;
-    }
-//    public Optional<Pair<Integer, String>> headOfTheClass(Stream<Pair<Integer, String>> stream) {
-//        Optional<Pair<Integer, String>> integerStringPair = stream.max(Comparator.comparingInt(Pair::getKey)
-//                        .thenComparing(Pair::getValue))
-//                .map(Optional::of)
-//                .orElse(Optional.empty());
-//        return integerStringPair;
-//    }
+  public Stream<Pair<Integer, String>> orderGrade(
+    Stream<Pair<Integer, String>> stream
+  ) {
+    return stream.sorted(
+      Comparator
+        .comparing(Pair<Integer, String>::getKey)
+        .thenComparing(Pair<Integer, String>::getValue)
+    );
+  }
 
-    public Stream<Pair<Integer, String>> encryption(Stream<Pair<Integer, String>> stream) {
-        return stream.map(s -> {
-            String login = s.getValue();
-            int n = login.length();
-            int mid = n / 2;
-            String firstPart = login.substring(0, mid);
-            String secondPart = login.substring(mid, n);
-            String encryptedLogin = secondPart + firstPart;
-            return new Pair<>(s.getKey(), encryptedLogin);
-        });
-    }
+  public Stream<Pair<Integer, String>> lowercase(
+    Stream<Pair<Integer, String>> stream
+  ) {
+    return stream.map(pair -> {
+      if (pair.getValue().equals(pair.getValue().toLowerCase())) {
+        return pair;
+      } else {
+        return new Pair<Integer, String>(
+          pair.getKey() / 2,
+          pair.getValue().toLowerCase()
+        );
+      }
+    });
+  }
+
+
+
+  public Optional<Pair<Integer, String>> headOfTheClass(
+    Stream<Pair<Integer, String>> stream
+  ) {
+    return stream.reduce((pair1, pair2) -> {
+      if (pair1.getKey() > pair2.getKey()) {
+        return pair1;
+      } else if (pair1.getKey() < pair2.getKey()) {
+        return pair2;
+      } else {
+        if (pair1.getValue().compareTo(pair2.getValue()) < 0) {
+          return pair1;
+        } else {
+          return pair2;
+        }
+      }
+    });
+  }
+
+  public Stream<Pair<Integer, String>> quickFix(
+    Stream<Pair<Integer, String>> stream
+  ) {
+    return stream.map(pair -> {
+      if (
+        pair.getValue().toLowerCase().startsWith("ma") ||
+        (
+          pair.getValue().toLowerCase().startsWith("l") &&
+          pair.getValue().toLowerCase().endsWith("x")
+        )
+      ) {
+        if (pair.getKey() * 2 > 100) {
+          Pair<Integer, String> pt = new Pair<Integer, String>(
+            100,
+            pair.getValue()
+          );
+          return pt;
+        } else {
+          Pair<Integer, String> pr = new Pair<Integer, String>(
+            pair.getKey() * 2,
+            pair.getValue()
+          );
+          return pr;
+        }
+      } else {
+        return pair;
+      }
+    });
+  }
+
+  public Stream<Pair<Integer, String>> encryption(
+    Stream<Pair<Integer, String>> stream
+  ) {
+    return stream.map(s -> {
+      int q = s.getValue().length();
+      String premiere = s.getValue().substring(0,  q / 2);
+      String fin = s.getValue().substring( q / 2, q);
+      return new Pair<>(s.getKey(), fin + premiere);
+    });
+  }
+
+
+
+
+
 }
-

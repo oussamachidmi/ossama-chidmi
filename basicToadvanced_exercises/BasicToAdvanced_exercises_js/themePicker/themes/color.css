@@ -1,0 +1,30 @@
+header {
+    background-color: rgba(9, 245, 60, 0.755);
+    order: 3;
+}
+
+main {
+    background-color: rgba(255, 77, 77, 0.067);
+    order: 2;
+}
+
+footer {
+    background-color: rgba(70, 0, 210, 0.391);
+    order: 1;
+}
+
+input[type="text"] , input[type="email"] 
+, textarea  {
+    border-radius: 10px;
+    border: 2px solid green;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+section > :first-child {
+    display: none;
+}
+  

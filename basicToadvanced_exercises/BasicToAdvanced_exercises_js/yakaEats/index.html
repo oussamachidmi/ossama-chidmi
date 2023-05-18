@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>yakaEats</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Yaka Eats</h1>
+        <p>Welcome to Yaka Eats, the best food ordering platform in the world!</p>
+    </header>
+    <main>
+        <ol id="menu">
+            <li class="product">
+                <div>
+                    <h2 class="name">Yaka Burger</h2>
+                    <p class="description">
+                        A burger with a twist. Made with a special sauce and a secret ingredient.
+                    </p>
+                </div>
+                <div>
+                    <span class="priceTag">
+                        <span class="spanNb">4.99</span>$
+                    </span>
+                    <button class="order">add to order</button>
+                </div>
+            </li>
+            <li class="product">
+                <div>
+                    <h2 class="name">Yaka Pizza</h2>
+                    <p class="description">
+                        A pizza with a twist. Made with a special sauce and a secret ingredient.
+                    </p>
+                </div>
+                <div>
+                    <span class="priceTag">
+                        <span class="spanNb">7.99</span>$
+                    </span>
+                    <button class="order">add to order</button>
+                </div>
+            </li>
+            <li class="product">
+                <div>
+                    <h2 class="name">Yaka Salad</h2>
+                    <p class="description">
+                        The healthy choice of the menu.
+                    </p>
+                </div>
+                <div>
+                    <span class="priceTag">
+                        <span class="spanNb">10.99</span>$
+                    </span>
+                    <button class="order">add to order</button>
+                </div>
+            </li>
+        </ol>
+        <table id="recap">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="product">
+                    <td class="name">Yaka Burger</td>
+                    <td class="quantity">
+                        <input type="number" value="0" min="0">
+                    </td>
+                    <td class="priceTag">
+                        <span class="spanNb">0</span>$
+                    </td>
+                </tr>
+                <tr class="product">
+                    <td class="name">Yaka Pizza</td>
+                    <td class="quantity">
+                        <input type="number" value="0" min="0">
+                    </td>
+                    <td class="priceTag">
+                        <span class="spanNb">0.00</span>$
+                    </td>
+                </tr>
+                <tr class="product">
+                    <td class="name">Yaka Salad</td>
+                    <td class="quantity">
+                        <input type="number" value="0" min="0">
+                    </td>
+                    <td class="priceTag">
+                        <span class="spanNb">0.00</span>$
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr id="orderTotal">
+                    <td colspan="2">Total</td>
+                    <td><span class="spanNb">0.00</span>$</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    <footer>
+        <button id="validationBtn" type="submit">Validate</button>
+        <button id="reset" type="reset">reset</button>
+    </footer>
+</body>
+</html>

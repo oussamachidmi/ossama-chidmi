@@ -1,0 +1,58 @@
+{
+    "users": [
+        {
+            "id": 0,
+            "name": "Vasco Sampaio",
+            "age": 53,
+            "description": "If you're looking for someone to break down your code, I'm your man (or woman, or non-binary person)."
+        },
+        {
+            "id": 1,
+            "name": "Noé Bauvineau",
+            "age": 58,
+            "description": "Searching for someone who can appreciate the elegance of a well-designed API."
+        },
+        {
+            "id": 2,
+            "name": "Vincent Thirouin",
+            "age": 39,
+            "description": "I may not be able to dance, but I can sure write some smooth code."
+        },
+        {
+            "id": 3,
+            "name": "Thibault Viennot",
+            "age": 30,
+            "description": "Searching for someone who knows how to have fun while debugging"
+        },
+        {
+            "id": 4,
+            "name": "Pauline Chautard",
+            "age": 22,
+            "description": "I'm like a compiler, I can take your high-level needs and turn them into low-level satisfaction."
+        },
+        {
+            "id": 5,
+            "name": "Julien Nicolle",
+            "age": 28,
+            "description": "My code may not be perfect, but I promise I'll always be there to fix it."
+        },
+        {
+            "id": 6,
+            "name": "Nigel Andrews",
+            "age": 23,
+            "description": "My debugging skills are so good, I might just be able to fix your broken heart."
+        },
+        {
+            "id": 7,
+            "name": "Antoine Feret",
+            "age": 58,
+            "description": "I may not be great at socializing, but I'm excellent at debugging."
+        },
+        {
+            "id": 8,
+            "name": "Ethan Zouzoulkowsky",
+            "age": 39,
+            "description": "Looking for someone who knows the difference between SQL and NoSQL."
+        }
+    ]
+}

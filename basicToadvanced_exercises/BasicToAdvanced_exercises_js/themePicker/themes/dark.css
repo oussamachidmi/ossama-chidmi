@@ -1,0 +1,12 @@
+body {
+    background: linear-gradient(black, darkgrey);
+    color: #ffffff;
+}
+
+a:hover{
+    color: red;
+}
+
+ul {
+    list-style-type: "\2605";
+}

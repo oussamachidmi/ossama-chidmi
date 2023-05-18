@@ -1,0 +1,147 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: linear-gradient(to right, #ffc30f, #febc08);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product {
+    width: 300px;
+    margin: 0.5rem auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.product:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.product h2 {
+    margin: 1rem;
+}
+
+.product .description {
+    margin: 1rem;
+}
+
+.product .priceTag {
+    background: linear-gradient(to right, #ffc30f, #febc08);
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order {
+    background-color: white;
+    color: #febc08;
+    border: 2px solid #febc08;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.order:hover {
+    background: linear-gradient(to right, #ffc30f, #febc08);
+    color: white;
+}
+
+#recap {
+    display: table;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin: 2rem auto;
+    height: 100%;
+    width: 100%;
+    max-width: 800px;
+}
+
+#recap thead,
+#recap tfoot {
+    background: linear-gradient(to right, #ffc30f, #febc08);
+    color: white;
+}
+
+#recap thead {
+    display: flex;
+    flex-basis: 0;
+}
+
+#recap tbody {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+#recap tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#recap td,
+#recap th {
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0;
+    width: 33%;
+}
+
+#recap tfoot {
+    display: flex;
+    font-weight: bold;
+    justify-content: end;
+}
+
+#recap input[type="number"] {
+    width: 50px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+#validationBtn,
+#reset {
+    background: linear-gradient(to right, #ffc30f, #febc08);;
+    color: white;
+    border: none;
+    padding: 1rem;
+    margin-left: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#validationBtn:hover,
+#reset:hover {
+    background: linear-gradient(to right, #ffc30f, #febc08);;
+}

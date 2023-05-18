@@ -1,0 +1,21 @@
+* {
+    font-weight: bold;
+}
+
+header {
+    font-family: 'Open Sans', sans-serif;
+}
+
+main * {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+
+footer {
+    font-family: 'Lato', sans-serif;
+}
+
+section > .italic {
+    font-style: italic;
+}
+  
